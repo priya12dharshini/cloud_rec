@@ -1,0 +1,68 @@
+/* ResultComponent.css */
+
+.result-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .error {
+    color: #ff6347;
+  }
+  
+  .result-section {
+    margin-bottom: 30px;
+  }
+  
+  .result-section h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .result-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .result-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Animation */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .centered-button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .centered-button button {
+    margin: 0 auto;
+  }

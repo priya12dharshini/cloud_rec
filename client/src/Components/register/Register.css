@@ -1,0 +1,66 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("/public/img5.jpg");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 60px;
+    align-items: center;
+    margin: 25px 80px;
+    justify-content: center;
+    font-family: 'Nanito';
+}
+
+.registerForm {
+    margin-top: 140px;
+    display: flex;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rinput {
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 80px;
+    padding: 5px;
+    font-size: 15px;
+    background-color:orangered;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rbutton:hover {
+    background-color: olivedrab;
+}
+
